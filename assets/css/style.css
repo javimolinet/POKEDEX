@@ -1,0 +1,71 @@
+body {
+    background-color: lightblue;
+    font-family: 'Audiowide', cursive;
+}
+#logo {
+    height: 200px;
+    width: 900px; 
+}
+
+#bola {
+    height: 100px;
+    margin-top: 70px;
+}
+.titulo {
+    text-align: center;
+}
+#gif {
+    display: block;
+    margin: auto;
+    height: 100px;
+}
+#informacion {
+    text-align: center;
+    font-size: 25px;
+}
+.pokedex {
+    background-color: red;
+    text-align: center;
+    border-radius: 5%;
+}
+#imagenes {
+    background-color:gray;
+   border: solid 10px white;  
+}
+#leds{
+    text-align: left;
+}
+.cam {
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    background-color: #28A9FC;
+    border: solid 10px #196A9E;
+    box-shadow: 0px 0px 0px 4px #C4C4C4;
+}
+.led {
+    margin-top: 30px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0px 0px 0px 1px #222;
+    margin-right: 10px;
+}
+.led.no_1 {
+    margin-left: 70px;
+    background-color: #FF002B;
+    border: solid 5px #9E001B;
+}
+.led.no_2 {
+    background-color: #FFE21A;
+    border: solid 5px #A49010;
+}
+.led.no_3 {
+    background-color: #6EBB79;
+    border: solid 5px #336D3B;
+}
